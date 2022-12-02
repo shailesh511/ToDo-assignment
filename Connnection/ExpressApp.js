@@ -1,9 +1,9 @@
-require('dot-env')
+require('./DbConnection').connect()
 const express = require('express')
 const app = express();
-const port = process.env.PORT;
 
-app.get("/",()=>{
+//home route
+app.get("/",(req, res)=>{
     res.status(200).send("Welcome man...")
 })
 
