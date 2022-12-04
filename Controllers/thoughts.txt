@@ -1,8 +1,0 @@
-createToDocontroller//Big object
-getTodosController
-getTodoController
-
-deleteTodoController
-
-createTaskTodoController //we have to find the existing created object and add task
-deleteTaskTodoController //we have to find the existing created object and add task

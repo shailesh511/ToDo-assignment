@@ -1,4 +1,3 @@
-require('dot-env')
 const mongoose = require("mongoose");
 const mongoURL = process.env.DATABASE
 
